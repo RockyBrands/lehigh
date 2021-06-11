@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/theme.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </head>
   <body class="layout-wide">
     <!-- Loader -->
@@ -90,9 +91,11 @@
         </div>
         <div class="container align-self-center text-white">
           <div class="row">
-            <div class="col-12 col-lg-9 col-xl-6">
-              <h1 class="mb-4 animated" data-animation="fadeInUp">Welcome to the Lehigh family</h1>
-              <p class="mb-7 animated" data-animation="fadeInUp" data-animation-delay="200">Our brands include Lehigh Outfitters, Lehigh Safety Shoes, Lehigh CustomFit, SlipGrips and Shoe Angel. </p>
+            <div class="col-12 col-lg-9 col-xl-6" id="typed-strings">
+              <h1 class="mb-4 animated" data-animation="fadeInUp"><span id="typed"></span></h1>
+              <hr class="animated" data-animation="fadeInUp" data-animation-delay="150" style="border-bottom: 3px solid;">
+              <p class="mb-7 animated" data-animation="fadeInUp" data-animation-delay="200">We've got you covered from head to toe with great fitting workwear. Whether you work in hospitality, manufacturing, construction, medical or any other occupation we have a brand that will suit your needs. </p>
+              
               <a href="#our-history" class="btn btn-white mr-3 scrollto animated" data-animation="fadeInUp" data-animation-delay="400">Learn more</a>
               <a href="#contact" class="btn btn-soft-white scrollto animated" data-animation="fadeInUp" data-animation-delay="600">Contact Us</a>
             </div>
@@ -110,8 +113,9 @@
         <div class="container align-self-xl-center text-white">
           <div class="row">
             <div class="col-12 col-xl-6">
-              <h2 class="mb-4 animated" data-animation="fadeInUp" data-animation-delay="150">Our History</h2>
-              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">Lehigh history goes here.</p>
+              <h2 style="font-weight:700;" class="mb-4 animated" data-animation="fadeInUp" data-animation-delay="150">Our History</h2>
+              <hr class="animated" data-animation="fadeInUp" data-animation-delay="150" style="border-bottom: 1px solid;">
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150">Ever since the Lehigh Rubber Company took over the New Castle Rubber Company in New Castle, PA almost 100 years ago we've been focused on safety footwear. With our huge selection of brands and styles we can fit any foot and work environment imaginable. You can put your trust in us to keep you safe and feeling great on the job.</p>
             </div>
           </div>
         </div>
@@ -127,40 +131,37 @@
         <div class="container align-self-xl-center text-white">
           <div class="row">
             <div class="col-12 col-xl-5 mb-8 mb-xl-0">
-              <h2 class="animated mb-4" data-animation="fadeInUp">Our Brands</h2>
-              <p class="animated" data-animation="fadeInUp" data-animation-delay="150"><span>Focus on B2B and B2C information.</span></p>
+              <h2 class="animated mb-4" data-animation="fadeInUp" style="font-weight:700;">Our Brands</h2>
+              <hr class="animated" data-animation="fadeInUp" data-animation-delay="150" style="border-bottom: 1px solid;">
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150"><span>Business-To-Business</span></p>
+              <ul class="animated" data-animation="fadeInUp" data-animation-delay="150">
+                <li><span><a href="https://www.customfit.me/index.html" style="color:#bed600;" alt="CustomFit Link">Lehigh CustomFit</a></span></li>
+                <li><span><a href="https://shoeangel.com/" style="color:#f2a900;" alt="Shoe Angel Link">Shoe Angel</a></span></li>
+              </ul>
+              <p class="animated" data-animation="fadeInUp" data-animation-delay="150"><span>Business-To-Consumer</span></p>
+              <ul class="animated" data-animation="fadeInUp" data-animation-delay="150">
+                <li><span><a href="https://www.lehighoutfitters.com/" style="color:#e57200;" alt="Lehigh Outfitters Link">Lehigh Outfitters</a></span></li>
+                <li><span><a href="https://www.lehighsafetyshoes.com/" style="color:#fbe000;" alt="Lehigh Safety Shoes Link">Lehigh Safety Shoes</a></span></li>
+                <li><span><a href="https://www.slipgrips.com/" style="color:#dc291e;" alt="SlipGrips Link">SlipGrips</a></span></li>
+              </ul>
             </div>
             <div class="col-12 col-xl-6 offset-xl-1">
               <div class="row">
                 <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp">
-                  <div class="icon-7x mb-4">
-                    <i class="ti-timer"></i>
-                  </div>
-                  <h3 class="h4 mb-0">Lehigh CustomFit</h3>
+                  <a href="https://www.customfit.me/index.html"><img src="assets/images/customfit2x.png" style="max-width:250px;" alt="Custom Fit Logo"></a>
+                </div>
+               
+                <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="300">
+                  <a href="https://www.lehighoutfitters.com/"><img src="assets/images/LO-whiteText2x.png" style="max-width:250px;" alt="Lehigh Outfitters Logo"></a>
                 </div>
                 <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="150">
-                  <div class="icon-7x mb-4">
-                    <i class="ti-brush-alt"></i>
-                  </div>
-                  <h3 class="h4 mb-0">Lehigh Outfitters</h3>
-                </div>
-                <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="300">
-                  <div class="icon-7x mb-4">
-                    <i class="ti-book"></i>
-                  </div>
-                  <h3 class="h4 mb-0">Lehigh Safety Shoes</h3>
+                  <a href="https://shoeangel.com/"><img src="assets/images/sa_2xNEW.png" style="max-width:250px;" alt="Shoe Angel Logo"></a>
                 </div>
                 <div class="col-md-6 col-sm-6 mb-8 animated" data-animation="fadeInUp" data-animation-delay="450">
-                  <div class="icon-7x mb-4">
-                    <i class="ti-layers"></i>
-                  </div>
-                  <h3 class="h4 mb-0">SlipGrips</h3>
+                  <a href="https://www.lehighsafetyshoes.com/"><img src="assets/images/lss_2xNew.png" style="max-width:250px;" alt="Lehigh Safety Shoes Logo"></a>
                 </div>
-                <div class="col-md-6 col-sm-6 mb-8 mb-sm-0 animated" data-animation="fadeInUp" data-animation-delay="600">
-                  <div class="icon-7x mb-4">
-                    <i class="ti-settings"></i>
-                  </div>
-                  <h3 class="h4 mb-0">Shoe Angel</h3>
+                <div class="col-md-12 col-sm-12 mb-8 mb-sm-0 animated" data-animation="fadeInUp" data-animation-delay="600">
+                  <a href="https://www.slipgrips.com/"><img src="assets/images/slipgrips2x.png" style="max-width:250px;" alt="SlipGrips Logo"></a>
                 </div>
               </div>
             </div>
@@ -178,9 +179,17 @@
         <div class="container align-self-xl-center text-white">
           <div class="row">
             <div class="col-12 col-xl-6">
-              <h2 class="mb-4 animated" data-animation="fadeInUp" data-animation-delay="150">Our Clients</h2>
+              <h2 style="font-weight:700;" class="mb-4 animated" data-animation="fadeInUp" data-animation-delay="150">Our Clients</h2>
+              <hr class="animated" data-animation="fadeInUp" data-animation-delay="150" style="border-bottom: 1px solid;">
               <p class="animated" data-animation="fadeInUp" data-animation-delay="250">With us, you're in good company</p>
-              <p class="animated" data-animation="fadeInUp" data-animation-delay="350">LOGOS GO HERE</p>
+              <img style="padding: 5px 10px 5px 10px;" alt="FedEx Logo" src="assets/images/fedexBW-min.png">
+              <img style="padding: 5px 10px 5px 10px;" alt="Kellogs Logo" src="assets/images/kellogsBW-min.png">
+              <img style="padding: 5px 10px 5px 10px;" alt="Vallen Logo" src="assets/images/vallenBW-min.png">
+              <img style="padding: 5px 10px 5px 10px;" alt="Tyson Logo" src="assets/images/tysonBW-min.png">
+              <img style="padding: 5px 10px 5px 10px;" alt="United Logo" src="assets/images/unitedBW-min1.png">
+              <img style="padding: 5px 10px 5px 10px;" alt="Whirlpool Logo" src="assets/images/whirlpoolBW-min.png">
+              
+
             </div>
           </div>
         </div>
@@ -311,5 +320,16 @@
     <script src="assets/vendor/vegas/vegas.min.js"></script>
     <!-- Theme JS -->
     <script src="assets/js/main.js"></script>
+    <script>
+
+var options = {
+  strings: ['Welcome To Lehigh'],
+  startDelay: 100,
+  typeSpeed: 110,
+  showCursor: false
+};
+
+var typed = new Typed('#typed', options);
+    </script>
   </body>
 </html>
